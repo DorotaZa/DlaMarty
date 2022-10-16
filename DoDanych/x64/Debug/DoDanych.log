@@ -1,0 +1,5 @@
+﻿  DataToDisplay.cpp
+C:\C++-SDA\C++Advanced\FinalProTrials\DoDanych\DoDanych\DataToDisplay.hpp(20,46): warning C4566: character represented by universal-character-name '\u0144' cannot be represented in the current code page (1252)
+C:\C++-SDA\C++Advanced\FinalProTrials\DoDanych\DoDanych\DataToDisplay.hpp(20,118): warning C4566: character represented by universal-character-name '\u0119' cannot be represented in the current code page (1252)
+C:\C++-SDA\C++Advanced\FinalProTrials\DoDanych\DoDanych\DataToDisplay.hpp(20,210): warning C4566: character represented by universal-character-name '\u0144' cannot be represented in the current code page (1252)
+  DoDanych.vcxproj -> C:\C++-SDA\C++Advanced\FinalProTrials\DoDanych\x64\Debug\DoDanych.exe

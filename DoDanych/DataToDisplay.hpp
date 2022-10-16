@@ -21,4 +21,5 @@ private:
 	std::vector <std::string> currencyID = { "USD", "AUD", "CAD", "EUR", "HUF", "CHF", "GBP", "JPY", "CZK", "DKK", "NOK", "SEK", "XDR"};
 public:
 	DataToDisplay();
+	std::vector<Currency> getVectorOfCurrencies();
 };

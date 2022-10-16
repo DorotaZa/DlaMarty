@@ -1,8 +1,12 @@
 // DoDanych.cpp 
 
 #include <iostream>
+#include "Cashier.hpp"
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+
+	Cashier cashier();
+	cashier.displayCurrencyRateTable();
 }
