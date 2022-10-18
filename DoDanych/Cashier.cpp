@@ -17,11 +17,14 @@ void Cashier::displayCurrencyRateTable()
 	std::cout << std::setw(25) << "---------------------------------------------------------------------------------" << std::endl;
 	std::cout << std::endl;
 
-	for (int i = 0; i < _data.getVectorOfCurrencies().size(); ++i)
+	const int size = _data.getVectorOfCurrencies().size();
+
+	for (int i = 0; i < size; ++i)
 	{
 		std::cout << std::setw(25) << _data.getVectorOfCurrencies().at(i).name << std::setw(25) << _data.getVectorOfCurrencies().at(i).currencyCode << std::setw(15) << _data.getVectorOfCurrencies().at(i).currencyRateBuy << std::setw(15) << _data.getVectorOfCurrencies().at(i).currencyRateSell << std::endl;
 		std::cout << std::endl;
 
 	}
+
 	
 }

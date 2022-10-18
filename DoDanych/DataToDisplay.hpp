@@ -11,7 +11,6 @@ struct Currency
 	double currencyRateSell;
 };
 
-
 class DataToDisplay
 {
 private:

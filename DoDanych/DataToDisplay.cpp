@@ -1,4 +1,4 @@
-#include "DataToDisplay.hpp"
+﻿#include "DataToDisplay.hpp"
 #include <iostream>
 
 DataToDisplay::DataToDisplay()
@@ -8,7 +8,7 @@ DataToDisplay::DataToDisplay()
 		(*it).name
 	}*/
 
-	std::cout << "Constructor data to display" << std::endl;
+	std::cout << "ŻÓŁĆ" << std::endl;
 	for (int i = 0; i < vectorOfCurrencies.size(); ++i)
 	{
 		vectorOfCurrencies.at(i).name = currencyNames.at(i);
